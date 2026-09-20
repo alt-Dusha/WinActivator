@@ -1,0 +1,14 @@
+C:\Users\Andrew\source\repos\WinActivate\WinActivate\bin\Debug\net10.0\WinActivate.exe
+C:\Users\Andrew\source\repos\WinActivate\WinActivate\bin\Debug\net10.0\WinActivate.deps.json
+C:\Users\Andrew\source\repos\WinActivate\WinActivate\bin\Debug\net10.0\WinActivate.runtimeconfig.json
+C:\Users\Andrew\source\repos\WinActivate\WinActivate\bin\Debug\net10.0\WinActivate.dll
+C:\Users\Andrew\source\repos\WinActivate\WinActivate\bin\Debug\net10.0\WinActivate.pdb
+C:\Users\Andrew\source\repos\WinActivate\WinActivate\obj\Debug\net10.0\WinActivate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrew\source\repos\WinActivate\WinActivate\obj\Debug\net10.0\WinActivate.AssemblyInfoInputs.cache
+C:\Users\Andrew\source\repos\WinActivate\WinActivate\obj\Debug\net10.0\WinActivate.AssemblyInfo.cs
+C:\Users\Andrew\source\repos\WinActivate\WinActivate\obj\Debug\net10.0\WinActivate.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\source\repos\WinActivate\WinActivate\obj\Debug\net10.0\WinActivate.dll
+C:\Users\Andrew\source\repos\WinActivate\WinActivate\obj\Debug\net10.0\refint\WinActivate.dll
+C:\Users\Andrew\source\repos\WinActivate\WinActivate\obj\Debug\net10.0\WinActivate.pdb
+C:\Users\Andrew\source\repos\WinActivate\WinActivate\obj\Debug\net10.0\WinActivate.genruntimeconfig.cache
+C:\Users\Andrew\source\repos\WinActivate\WinActivate\obj\Debug\net10.0\ref\WinActivate.dll
