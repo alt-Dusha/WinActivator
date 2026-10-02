@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Andrew\\source\\repos\\WinActivate\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55738CD5-0718-1E54-D55D-E533E213995D}|WinActivate\\WinActivate.csproj|c:\\users\\andrew\\source\\repos\\winactivate\\winactivate\\ui\\consoleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55738CD5-0718-1E54-D55D-E533E213995D}|WinActivate\\WinActivate.csproj|solutionrelative:winactivate\\ui\\consoleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{55738CD5-0718-1E54-D55D-E533E213995D}|WinActivate\\WinActivate.csproj|c:\\users\\andrew\\source\\repos\\winactivate\\winactivate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55738CD5-0718-1E54-D55D-E533E213995D}|WinActivate\\WinActivate.csproj|solutionrelative:winactivate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55738CD5-0718-1E54-D55D-E533E213995D}|WinActivate\\WinActivate.csproj|c:\\users\\andrew\\source\\repos\\winactivate\\winactivate\\services\\commandexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55738CD5-0718-1E54-D55D-E533E213995D}|WinActivate\\WinActivate.csproj|solutionrelative:winactivate\\services\\commandexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55738CD5-0718-1E54-D55D-E533E213995D}|WinActivate\\WinActivate.csproj|c:\\users\\andrew\\source\\repos\\winactivate\\winactivate\\ui\\consoleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55738CD5-0718-1E54-D55D-E533E213995D}|WinActivate\\WinActivate.csproj|solutionrelative:winactivate\\ui\\consoleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55738CD5-0718-1E54-D55D-E533E213995D}|WinActivate\\WinActivate.csproj|c:\\users\\andrew\\source\\repos\\winactivate\\winactivate\\services\\adminchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55738CD5-0718-1E54-D55D-E533E213995D}|WinActivate\\WinActivate.csproj|solutionrelative:winactivate\\services\\adminchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55738CD5-0718-1E54-D55D-E533E213995D}|WinActivate\\WinActivate.csproj|c:\\users\\andrew\\source\\repos\\winactivate\\winactivate\\services\\commandexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55738CD5-0718-1E54-D55D-E533E213995D}|WinActivate\\WinActivate.csproj|solutionrelative:winactivate\\services\\commandexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Andrew\\source\\repos\\WinActivate\\WinActivate\\Program.cs",
               "RelativeDocumentMoniker": "WinActivate\\Program.cs",
               "ToolTip": "C:\\Users\\Andrew\\source\\repos\\WinActivate\\WinActivate\\Program.cs",
               "RelativeToolTip": "WinActivate\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAwAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-29T15:30:17.476Z",
               "IsPinned": true,
@@ -44,41 +44,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ConsoleUI.cs",
               "DocumentMoniker": "C:\\Users\\Andrew\\source\\repos\\WinActivate\\WinActivate\\UI\\ConsoleUI.cs",
               "RelativeDocumentMoniker": "WinActivate\\UI\\ConsoleUI.cs",
               "ToolTip": "C:\\Users\\Andrew\\source\\repos\\WinActivate\\WinActivate\\UI\\ConsoleUI.cs",
               "RelativeToolTip": "WinActivate\\UI\\ConsoleUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAIwEQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-02T17:37:01.69Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CommandExecutor.cs",
-              "DocumentMoniker": "C:\\Users\\Andrew\\source\\repos\\WinActivate\\WinActivate\\Services\\CommandExecutor.cs",
-              "RelativeDocumentMoniker": "WinActivate\\Services\\CommandExecutor.cs",
-              "ToolTip": "C:\\Users\\Andrew\\source\\repos\\WinActivate\\WinActivate\\Services\\CommandExecutor.cs",
-              "RelativeToolTip": "WinActivate\\Services\\CommandExecutor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T18:14:36.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "AdminChecker.cs",
               "DocumentMoniker": "C:\\Users\\Andrew\\source\\repos\\WinActivate\\WinActivate\\Services\\AdminChecker.cs",
               "RelativeDocumentMoniker": "WinActivate\\Services\\AdminChecker.cs",
               "ToolTip": "C:\\Users\\Andrew\\source\\repos\\WinActivate\\WinActivate\\Services\\AdminChecker.cs",
               "RelativeToolTip": "WinActivate\\Services\\AdminChecker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-12T16:14:23.746Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CommandExecutor.cs",
+              "DocumentMoniker": "C:\\Users\\Andrew\\source\\repos\\WinActivate\\WinActivate\\Services\\CommandExecutor.cs",
+              "RelativeDocumentMoniker": "WinActivate\\Services\\CommandExecutor.cs",
+              "ToolTip": "C:\\Users\\Andrew\\source\\repos\\WinActivate\\WinActivate\\Services\\CommandExecutor.cs",
+              "RelativeToolTip": "WinActivate\\Services\\CommandExecutor.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T18:14:36.806Z",
               "EditorCaption": ""
             }
           ]

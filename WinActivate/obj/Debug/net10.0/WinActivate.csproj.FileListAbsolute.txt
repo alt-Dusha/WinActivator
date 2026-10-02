@@ -12,3 +12,5 @@ C:\Users\Andrew\source\repos\WinActivate\WinActivate\obj\Debug\net10.0\refint\Wi
 C:\Users\Andrew\source\repos\WinActivate\WinActivate\obj\Debug\net10.0\WinActivate.pdb
 C:\Users\Andrew\source\repos\WinActivate\WinActivate\obj\Debug\net10.0\WinActivate.genruntimeconfig.cache
 C:\Users\Andrew\source\repos\WinActivate\WinActivate\obj\Debug\net10.0\ref\WinActivate.dll
+C:\Users\Andrew\source\repos\WinActivate\WinActivate\obj\Debug\net10.0\WinActivate.sourcelink.json
+C:\Users\Andrew\source\repos\WinActivate\WinActivate\obj\Debug\net10.0\WinActiv.F2C3CC0B.Up2Date

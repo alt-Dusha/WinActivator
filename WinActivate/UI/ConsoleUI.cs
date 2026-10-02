@@ -1,40 +1,75 @@
-﻿namespace WinActivate.UI
+﻿using System.Runtime.CompilerServices;
+using System.Xml.Serialization;
+
+namespace WinActivate.UI
 {
     public class ConsoleUI
     {
+        static string space = FormatForLine();
+        static string[] menuPointArray = { "Выберите пункт из меню:", " ", "1.Активировать Windows", "0.Выйти из программы" };
+        string startLine = "____________________Activation Window's____________________\n" + space;
+        string endLine = space + "|_________________________________________________________|";
+
         public void ShowMainMenu()
         {
-            string[] 
             ClearUI();
-            ShowMessage(FormatInBox("Выберите пункт из меню:") + FormatInBox() +
-                FormatInBox("1.Активировать Windows") +
-                FormatInBox("0.Выйти из программы"));
+            ShowMessage(menuPointArray);
+
         }
+
+        // Показ сообщений
         public void ShowMessage(string message)
         {
-            string startLine = "___________________Activation Window's___________________\n" + FormatInBox();
-            string endLine = FormatInBox() + "|_______________________________________________________|";
-
-            Console.WriteLine(startLine + FormatInBox(message) + endLine);
-            Console.ReadKey();
             ClearUI();
+
+            Console.WriteLine(startLine + FormatForLine(message) + endLine);
+            Thread.Sleep(800);
         }
 
+        public void ShowMessage(string[] messages)
+        {
+            ClearUI();
+
+            Console.WriteLine(startLine + FormatForList(messages) + endLine);
+            Console.Read();
+        }
+
+        //Форматирование для строк и списков
+        private static string FormatForLine(string read = "")
+        {
+            string spaces = " ";
+            read = "|        " + read;
+            for (int i = 0; i < 57 - read.Length; i++) spaces += " ";
+            return read + spaces + "|\n";
+        }
+        private static string FormatForList(string[] messages)
+        {
+            string read = "";
+            //int longestLength = 0;
+            //foreach (string line in messages)
+            //{
+            //    if (longestLength > line.Length) longestLength = line.Length;
+            //}
+            foreach (var item in messages)
+            {
+                string spaces = " ";
+                string helper = "|        " + item;
+                read = read + helper;
+                for (int i = 0; i < 57 - helper.Length; i++) spaces += " ";
+                read = read + spaces + "|\n";
+            }
+            return read;
+        }
+
+        //Возвращение ответа (для Programm)
         public int GetUserAnswer()
         {
-            if (int.TryParse(Console.ReadLine().Trim(), out int input) && input <= 1) return input;
-            return -1;
+            int input = -1;
+            int.TryParse(Console.ReadLine().Trim().ToString(), out input);
+            return input;
         }
 
         private void ClearUI() => Console.Clear();
-        private string FormatInBox(string read = "")
-        {
-            string spaces = " ";
-            read = "|   " + read;
-            int widghtWindow = Console.WindowWidth;
-            for (int i = 0; i < 57 - read.Length - 2; i++) spaces += " ";
-            return read + spaces + "|\n";
-        }
     }
 }
 

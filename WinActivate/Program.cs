@@ -5,9 +5,12 @@ ConsoleUI _c = new ConsoleUI();
 Main();
 void Main()
 {
+    //Проверка на права администратора
     AdminChecker check = new AdminChecker();
+
     // Показываем меню
     _c.ShowMainMenu();
+
     // Проверяем ввод пользователя
     CommandExecutor _ex = new CommandExecutor();
     Menu();
