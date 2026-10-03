@@ -18,7 +18,7 @@ namespace WinActivate.Services
             }
         }
 
-        public string ConsoleCommandExecutor(string command)
+        public string TakeConsoleCommandResult(string command)
         {
             ProcessStartInfo startInfo = new ProcessStartInfo
             {

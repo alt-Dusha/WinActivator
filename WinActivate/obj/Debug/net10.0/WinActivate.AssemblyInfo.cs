@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WinActivate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a8eb93004096d75d1d675f8e2e8005b319604d2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8c916355c2fa0d302b3bdcbd42729ef03bc88f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("WinActivate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WinActivate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

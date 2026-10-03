@@ -1,7 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-using System.Xml.Serialization;
-
-namespace WinActivate.UI
+﻿namespace WinActivate.UI
 {
     public class ConsoleUI
     {
@@ -31,7 +28,6 @@ namespace WinActivate.UI
             ClearUI();
 
             Console.WriteLine(startLine + FormatForList(messages) + endLine);
-            Console.Read();
         }
 
         //Форматирование для строк и списков
@@ -45,6 +41,7 @@ namespace WinActivate.UI
         private static string FormatForList(string[] messages)
         {
             string read = "";
+            //Крч задумка на будущее, что бы список отображался по центру
             //int longestLength = 0;
             //foreach (string line in messages)
             //{
@@ -64,8 +61,11 @@ namespace WinActivate.UI
         //Возвращение ответа (для Programm)
         public int GetUserAnswer()
         {
-            int input = -1;
-            int.TryParse(Console.ReadLine().Trim().ToString(), out input);
+            string usAnswer = Console.ReadLine();
+            if (!int.TryParse(usAnswer.Trim(), out int input))
+            {
+                return -1;
+            }
             return input;
         }
 
@@ -78,4 +78,4 @@ namespace WinActivate.UI
 //WindowsDetector.cs
 //AdminChecker.cs +
 //ActivationChecker.cs +
-//WindowsUI.cs +-
+//WindowsUI.cs +
